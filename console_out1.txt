@@ -1,0 +1,112 @@
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl
+$ cd Desktop/
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop
+$ cd Spring2020/
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020
+$ cd Engineering/
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering (master)
+$ ls
+Change_of_Scope.docx            Lab1/     Lab2/     Lab3/
+cse408_Spring2020_Muheidat.pdf  Lab1.zip  Lab2.zip  zoom.txt
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering (master)
+$ cd Lab3
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering/Lab3 (master)
+$ git init
+Initialized empty Git repository in C:/Users/charl/Desktop/Spring2020/Engineering/Lab3/.git/
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering/Lab3 (master)
+$ ls
+test.txt
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering/Lab3 (master)
+$ git clone https://github.com/ckinzel/cse408lab3.git
+Cloning into 'cse408lab3'...
+warning: You appear to have cloned an empty repository.
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering/Lab3 (master)
+$ ls
+cse408lab3/  test.txt
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering/Lab3 (master)
+$ cd ..
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering (master)
+$ cd ..
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020
+$ cd Engineering/\
+>
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering (master)
+$ ls
+Change_of_Scope.docx  cse408_Spring2020_Muheidat.pdf  Lab1/  Lab1.zip  Lab2/  Lab2.zip  Lab3/  zoom.txt
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering (master)
+$ mkdir lab3
+mkdir: cannot create directory ‘lab3’: File exists
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering (master)
+$ mkdir mylab3
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering (master)
+$ cd mylab3
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering/mylab3 (master)
+$ git init
+Initialized empty Git repository in C:/Users/charl/Desktop/Spring2020/Engineering/mylab3/.git/
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering/mylab3 (master)
+$ ls
+test.txt
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering/mylab3 (master)
+$ git add test.txt
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering/mylab3 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   test.txt
+
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering/mylab3 (master)
+$ git commit -m "Ihope this works"
+[master (root-commit) 01f654e] Ihope this works
+ 1 file changed, 3 insertions(+)
+ create mode 100644 test.txt
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering/mylab3 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering/mylab3 (master)
+$ git remote add origin https://github.com/ckinzel/cse408lab3.git
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering/mylab3 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering/mylab3 (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 305 bytes | 101.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ckinzel/cse408lab3.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+charl@LAPTOP-OJA2MNIS MINGW64 /c/Users/charl/Desktop/Spring2020/Engineering/mylab3 (master)
