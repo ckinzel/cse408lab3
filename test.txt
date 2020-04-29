@@ -1,0 +1,3 @@
+git remote add origin https://github.com/ckinzel/cse408lab3.git
+
+git remote set-url origin https://github.com/ckinzel/cse408lab3.git
